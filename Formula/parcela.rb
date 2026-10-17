@@ -8,23 +8,23 @@ class Parcela < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/davafons/parcela/releases/download/v0.1.0/parcela-aarch64-apple-darwin.tar.gz"
-      sha256 "5db3a7b55e8280998fa045704ecf4194bb0cae35d600eac5511b4124f1e31cb3"
+      url "https://github.com/davafons/parcela/releases/download/v0.2.0/parcela-aarch64-apple-darwin.tar.gz"
+      sha256 "a14defab28f14b175718f8c4bf1ec69f1bc085d3650247f32e5ae2561400fdcf"
     end
     on_intel do
-      url "https://github.com/davafons/parcela/releases/download/v0.1.0/parcela-x86_64-apple-darwin.tar.gz"
-      sha256 "288c39b80f365a19855c8b2bd857e264217d25374f3046282f4c756dbe4daffa"
+      url "https://github.com/davafons/parcela/releases/download/v0.2.0/parcela-x86_64-apple-darwin.tar.gz"
+      sha256 "89a03a7cafb2fd6d8cd62d171fdea69a9824db0b3d765ab45671686158a36af2"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/davafons/parcela/releases/download/v0.1.0/parcela-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "30fdc8361db67b1d689b87641a52aa2680cc5c801d69d8f5621e767a52b0874c"
+      url "https://github.com/davafons/parcela/releases/download/v0.2.0/parcela-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "fbe915b91e888de7e878be10553055a2310533881fd9c9f44cb139c1ce50adfe"
     end
     on_intel do
-      url "https://github.com/davafons/parcela/releases/download/v0.1.0/parcela-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "114ddb61c3e783be0f0d85c7bbb6067e8b16d06f64db7a763679f681cf88d47b"
+      url "https://github.com/davafons/parcela/releases/download/v0.2.0/parcela-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "e43fc1326929531f8f17d67036f274dc38301ac93a6ba9d420e14634863dd660"
     end
   end
 
