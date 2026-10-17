@@ -1,8 +1,10 @@
 class Parcela < Formula
   desc "Run every checkout of a project at its own local HTTPS URL"
   homepage "https://parcela.davafons.com/docs/"
-  version "0.1.0"
   license "AGPL-3.0-only"
+
+  depends_on "caddy"
+  depends_on "f1bonacc1/tap/process-compose"
 
   on_macos do
     on_arm do
@@ -25,9 +27,6 @@ class Parcela < Formula
       sha256 "114ddb61c3e783be0f0d85c7bbb6067e8b16d06f64db7a763679f681cf88d47b"
     end
   end
-
-  depends_on "caddy"
-  depends_on "f1bonacc1/tap/process-compose"
 
   def install
     bin.install "parcela"
