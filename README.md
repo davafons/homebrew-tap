@@ -1,7 +1,7 @@
-# davafons/tap
+# lostcoords/tap
 
 ```sh
-brew install davafons/tap/parcela
+brew install lostcoords/tap/parcela
 ```
 
-Installs [Parcela](https://github.com/davafons/parcela) with Caddy and Process Compose.
+Installs [Parcela](https://github.com/lostcoords/parcela) with Caddy.
